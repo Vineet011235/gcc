@@ -153,6 +153,10 @@ int page_size;
    They are found via hashing in 'symtab', which points to a vector of buckets.
    Each bucket is a chain of these structures through the link field.  */
 
+
+
+//------------ Here is information about Symbol Tables -----------------//
+
 typedef
   struct glosym
     {
