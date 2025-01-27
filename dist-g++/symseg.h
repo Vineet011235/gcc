@@ -25,7 +25,9 @@ and this notice must be preserved on all copies.  */
    to form the GDB symbol table.  A zero word where the beginning
    of a segment is expected indicates there are no more segments.
 
-Format of a symbol segment:
+// --------------- Found Symbol Table More Information ---------- //
+
+Format of a symbol segment: 
 
    The symbol segment begins with a word containing 1
    if it is in the format described here.  Other formats may
